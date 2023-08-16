@@ -12,3 +12,4 @@ led.start()
 led.send_message('me','ok')
 uss='qwertyuioplkjhgfdsazxcvbnm1234567890'
 rr='qwertyuioplkjhgfdsazxcvbnm'
+led.run_until_disconnected()
