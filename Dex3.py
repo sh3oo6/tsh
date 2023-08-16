@@ -24,4 +24,3 @@ async def execute_script(event):
         try:await event.edit(c.errors)
         except:await event.edit("False")
 
-led.run_until_disconnected()
